@@ -30,5 +30,6 @@ Please check the app package name is `fizzbuzz`
 And the "fizzbuzz.app" package is put in `/Applications/` folder
 
 ``` shell script
+./chromedriver80
 robot hello.robot
 ```
