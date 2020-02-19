@@ -31,5 +31,5 @@ And the "fizzbuzz.app" package is put in `/Applications/` folder
 
 ``` shell script
 ./chromedriver80
-robot hello.robot
+robot hello.robot # another terminal
 ```
