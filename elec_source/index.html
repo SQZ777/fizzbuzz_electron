@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div id="say" class="navbar-brand d-flex align-items-center">
+      Fizz Buzz FizzBuzz!
+    </div>
+    <title>Fizz Buzz FizzBuzz!</title>
+  </div>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="h1 text-center pt-5" id="number">0</div>
+    <div class="h1 text-center" id="result">nothing</div>
+    <div class="text-center pb-5">
+      <div type="button" class="btn btn-lg btn-primary text-center" id="add_btn" onclick="add_number()">Add Number</div>
+    </div>
+  </div>
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>
